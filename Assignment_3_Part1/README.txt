@@ -46,6 +46,7 @@ Instructions:
                           commands 
 
         Step 3: App configuration for JDBC
+
                         - To keep the video under5 minutes will not go over this in depth but here is a video from
                           the professor explaining everything in more detail: 
                           https://brightspace.carleton.ca/d2l/le/content/396898/viewContent/4367649/View
@@ -54,9 +55,9 @@ Instructions:
                           private static final String user = "postgres";
                           private static final String password = "<your_password>";
            
-                          - Feel free to adjust the localhost port number as well as your password for
-                            pgAdmin4 (it will vary by device and depending on what you set your password
-                            to initially)…
+                        - Feel free to adjust the localhost port number as well as your password for
+                          pgAdmin4 (it will vary by device and depending on what you set your password
+                          to initially)…
 
         Step 4: Running the application instructions:
 
@@ -66,7 +67,7 @@ Instructions:
                         - Open the project
         
                         - Make sure the Maven module is imported: right-click Assignment_3_PART1_MAIN_CODE/pom.xml →
-			  Add as Maven Project (or Maven → Sync)
+			              Add as Maven Project (or Maven → Sync)
 
                         - ENSURE sources are marked (could run into errors otherwise…): right-click
                           Assignment_3_PART1_MAIN_CODE/src/main/java → 
@@ -85,5 +86,6 @@ Instructions:
                         - Update email: You’ll be prompted for student_id and new_email, then it prints the table.
                         - Delete: You’ll be prompted for student_id, then it prints the table.
                         - Exit: Quits the application 
+
 
 Video tutorial link: https://youtu.be/y11v47LH9fs
